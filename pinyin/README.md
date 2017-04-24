@@ -1,2 +1,2 @@
 # pinyin
-ccc.pinyin
+pinyin-plugin
