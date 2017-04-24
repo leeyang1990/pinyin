@@ -1,0 +1,23 @@
+{
+    "name":"pinyin",
+    "version":"0.0.1",
+    "description":"The package template for getting started.",
+    "author":"leeyang1990@gmail.com",
+    "main":"main.js",
+    "main-menu": {
+      "pinyin/open": {
+      "message": "pinyin:open"
+      }
+  },
+  "runtime-resource": {
+    "path": "runtime-scripts",
+    "name": "plugin"
+  },
+  "reload": {
+    "ignore": [
+      "runtime-scripts/**/*"
+    ]
+  }
+    
+
+}

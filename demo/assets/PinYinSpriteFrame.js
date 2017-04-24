@@ -1,0 +1,38 @@
+const PinYinSpriteFrame = cc.Class({
+    name: 'PinYinSpriteFrame',
+    properties: {
+        a: cc.SpriteFrame,
+        o: cc.SpriteFrame,
+        e: cc.SpriteFrame,
+        i: cc.SpriteFrame,
+        i0: cc.SpriteFrame,
+        u: cc.SpriteFrame,
+        v: cc.SpriteFrame,
+        b: cc.SpriteFrame,
+        p: cc.SpriteFrame,
+        m: cc.SpriteFrame,
+        f: cc.SpriteFrame,
+        d: cc.SpriteFrame,
+        t: cc.SpriteFrame,
+        n: cc.SpriteFrame,
+        l: cc.SpriteFrame,
+        g: cc.SpriteFrame,
+        k: cc.SpriteFrame,
+        h: cc.SpriteFrame,
+        j: cc.SpriteFrame,
+        q: cc.SpriteFrame,
+        x: cc.SpriteFrame,
+        r: cc.SpriteFrame,
+        z: cc.SpriteFrame,
+        c: cc.SpriteFrame,
+        s: cc.SpriteFrame,
+        y: cc.SpriteFrame,
+        w: cc.SpriteFrame,
+        tone1:cc.SpriteFrame,
+        tone2:cc.SpriteFrame,
+        tone3:cc.SpriteFrame,
+        tone4:cc.SpriteFrame,
+    }
+});
+
+module.exports = PinYinSpriteFrame;
