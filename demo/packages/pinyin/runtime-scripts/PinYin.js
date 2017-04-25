@@ -1,6 +1,6 @@
 "use strict";
 
-const assign = require("object-assign");
+// const assign = require("object-assign");
 //常用字表
 const PINYIN_DICT = buildPinyinCache(require("dict-zi-web"));
 // let jieba;移除分词模块，只针对字，词级别的需求
@@ -57,7 +57,7 @@ class Pinyin {
       return [];
     }
 
-    options = assign({}, DEFAULT_OPTIONS, options);
+    options = DEFAULT_OPTIONS;//assign({}, DEFAULT_OPTIONS, options);
     let phrases = [hans];//options && options.segment ? segment(hans) : hans;
     let pys = [];
     let nohans = "";
@@ -103,7 +103,7 @@ class Pinyin {
       return [];
     }
 
-    options = assign({}, DEFAULT_OPTIONS, options);
+    options = DEFAULT_OPTIONS//assign({}, DEFAULT_OPTIONS, options);
 
     let pys = [];
     let nohans = "";
